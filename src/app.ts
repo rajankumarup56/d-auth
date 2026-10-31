@@ -10,7 +10,7 @@ import { REFRESH_TOKEN_EXP_TIME } from "./utils/generateTokens";
 dotenv.config();
 
 const app: Express = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 
 dAuthMiddleware({
   enableFacebookLogin: false,
